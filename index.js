@@ -5,7 +5,7 @@
 */
 
 function takeANumber(number) {
-  return number
+  katzDeliLine.push(number)
   number++
 }
 
