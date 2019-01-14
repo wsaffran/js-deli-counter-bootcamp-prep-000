@@ -5,9 +5,8 @@
 */
 
 function takeANumber(number) {
-  let i =0
-  i++
-  return i
+  return number
+  number++
 }
 
 function nowServing(katzDeliLine) {
