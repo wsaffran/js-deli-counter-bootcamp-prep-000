@@ -4,10 +4,12 @@
 }
 */
 
-function takeANumber(katzDeliLine, number) {
-  var currentNumber = 0
-  katzDeliLine.push(number)
-  reuturn `Welcome. You are number ${number}`
+var currentNumber = 0
+
+function takeANumber(katzDeliLine) {
+  currentNumber++
+  katzDeliLine.push(currentNumber)
+  reuturn `Welcome. You are number ${currentNumber}`
 }
 
 function nowServing(katzDeliLine) {
